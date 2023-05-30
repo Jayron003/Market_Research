@@ -50,7 +50,7 @@ From the data, it can be observed that Urgent10k has a higher rating on Google P
 
 **As a Data Analyst**, the following steps were taken to analyze the customer reviews from Google Play Store for Irorun.ng and ng.urgent10k:
 
-Step 1: Data Collection ([Web Scraping]( Webscraping_Googleplay_Customers_Reviews.ipynb))
+Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews.ipynb))
 Python code, including the Google Play Scraper library, was utilized to scrape all customer reviews from the Google Play Store. The targeted URLs for scraping were:
 - For Irorun: [Irorun.ng](https://play.google.com/store/apps/details?id=com.irorun)
 - For urgent10k: [ng.urgent10k](https://play.google.com/store/apps/details?id=ng.urgent10k)
@@ -63,10 +63,10 @@ Based on the insights obtained from the EDA, executive recommendations were form
 
 By following these steps, I was able to analyze the customer reviews from the Google Play Store for Irorun and urgent10k, gain valuable insights into customers' experiences, and provide executive recommendations for further improvement.
 
-To view the code chunk used in web scraping, click [here]( Webscraping_Googleplay_Customers_Reviews.ipynb)  
+To view the code chunk used in web scraping, click [here](Webscraping_Googleplay_Customers_Reviews.ipynb)  
 The scrapped datasets can be found below
-•	Urgent10k [dataset]( Urgent10k_scraped_reviews.csv)
-•	Irorun [dataset]( Irorun_scraped_reviews.csv)
+•	Urgent10k [dataset](Urgent10k_scraped_reviews.csv)
+•	Irorun [dataset](Irorun_scraped_reviews.csv)
 
 ### Feature Information
 - `reviewId`- Unique identification key per review
@@ -127,7 +127,7 @@ To view the python code used for Exploratory Data Analysis for:
 •	Enhance Customer Service: customers value good customer service. Irorun and Urgent10k should prioritize responding promptly to customer inquiries and complaints and provide excellent service to improve customer satisfaction.
 •	Improve the App: As "app" is the most frequent word, it indicates that most customers are interacting with the app frequently. To ensure customer satisfaction, Irorun and Urgent10k should prioritize improving the user interface, fixing bugs, and adding new features.
 
->To view the PowerPoint recommendations, click [here]( Market_Research_Report.pptx)
+>To view the PowerPoint recommendations, click [here](Market_Research_Report.pptx)
 
 ## Limitation | Challenges
 Web scraping of customers’ reviews from Apple store was limited to ten reviews. Hence, no further analysis was conducted using data from Apple App Store reviews. This limitation restricted the depth of analysis and insights that could be derived from the Apple Store reviews.
