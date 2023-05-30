@@ -50,7 +50,7 @@ From the data, it can be observed that Urgent10k has a higher rating on Google P
 
 **As a Data Analyst**, the following steps were taken to analyze the customer reviews from Google Play Store for Irorun.ng and ng.urgent10k:
 
-Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews.ipynb))
+Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews .ipynb))
 Python code, including the Google Play Scraper library, was utilized to scrape all customer reviews from the Google Play Store. The targeted URLs for scraping were:
 - For Irorun: [Irorun.ng](https://play.google.com/store/apps/details?id=com.irorun)
 - For urgent10k: [ng.urgent10k](https://play.google.com/store/apps/details?id=ng.urgent10k)
@@ -65,6 +65,7 @@ By following these steps, I was able to analyze the customer reviews from the Go
 
 To view the code chunk used in web scraping, click [here](Webscraping_Googleplay_Customers_Reviews.ipynb)  
 The scrapped datasets can be found below
+
 •	Urgent10k [dataset](Urgent10k_scraped_reviews.csv)
 •	Irorun [dataset](Irorun_scraped_reviews.csv)
 
