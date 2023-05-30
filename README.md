@@ -1,5 +1,6 @@
 # Market Research
-![](display.JPEG)
+![](display.jpeg)
+image [source](https://www.inventiva.co.in/trends/top-15-market-research-india/)
 ## A Competitive Analysis
 In Nigeria, lending apps have become a popular choice for individuals in need of short-term loans. Two of such lenders are `Irorun` and `Urgent10k`, both of which offer similar financial products. In this assessment, I conducted a comparative analysis of `Irorun` and `Urgent10K` from the perspective of a typical Nigerian borrower. I gathered information about their loan products, fees, interest rates and other relevant details.
 
