@@ -1,21 +1,32 @@
 # Market Research
 ![](display.jpeg)
 image [source](https://www.inventiva.co.in/trends/top-15-market-research-india/)
-## A Competitive Analysis
+## Introduction
 In Nigeria, lending apps have become a popular choice for individuals in need of short-term loans. Two of such lenders are `Irorun` and `Urgent10k`, both of which offer similar financial products. In this assessment, I conducted a comparative analysis of `Irorun` and `Urgent10K` from the perspective of a typical Nigerian borrower. I gathered information about their loan products, fees, interest rates and other relevant details.
 
-Furthermore, I extracted all customer reviews of both lenders from the Google play store and conducted sentiment analysis to gain insight into the perceptions of their customers. Based on this analysis, I have provided a comprehensive assessment of these lenders, including their strengths, weaknesses, and areas for improvement. The findings of this assessment can be useful for borrowers who are considering using these lenders and can provide insights for the lenders themselves to improve their service.
+Furthermore, I extracted all customer reviews of both lenders from Google play store and conducted sentiment analysis to gain insight into the perceptions of their customers. Based on this analysis, I have provided a comprehensive assessment of these lenders, including their strengths, weaknesses, and areas for improvement. The findings of this assessment can be useful for borrowers who are considering using these lenders and can provide insights for the lenders themselves to improve their service.
 
 ## OBJECTIVE
-The objective of this research is to gain insights and knowledge that can guide decision-making related to product development, pricing, promotion, and distribution strategies. Market research helps businesses understand consumer preferences, market trends, and potential opportunities and risks, enabling them to make informed and data-driven decisions to effectively position and market their product.
+This research aims to assess customer satisfaction and identify pain points in the customer journey, comparing `Urgent10k` to `Irorun`. The findings will help `Urgent10k` pinpoint areas for improvement and leverage their strengths for enhanced customer experiences.
  
 ## METHODOLOGY
-To effectively achieve our business objectives, this assessment was conducted in two parts: an evaluation from the perspective of a typical Nigerian borrower and an assessment as a data Analyst. 
+To effectively achieve our business objectives, this assessment will be conducted in two parts: 
+* an evaluation from the perspective of a typical Nigerian borrower (ZMOT)
+* an assessment as a Data Analyst. 
 
-**As a typical Nigerian Borrower**, this aspect focuses on how potential customers perceive these products when encountering them for the first time through online resources such as their websites and app information. Here are the steps involved:
+**As a typical Nigerian Borrower (ZMOT)**, this aspect focuses on how potential customers perceive these products when encountering them for the first time through online resources such as their websites and app information. Here are the steps involved:
 
-Step 1: Evaluate the websites of both lenders and gather information about their products.
-Step 2: Review the app ratings and feedback on both Google Play Store and Apple App Store for both lenders.
+* Step 1: Evaluate the websites of both lenders and gather information about their products.
+* Step 2: Review the app ratings and feedback on both Google Play Store and Apple App Store for both lenders.
+
+**As a Data Analyst**
+Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews.ipynb))
+
+Step 2: Exploratory Data Analysis (EDA)
+Perform exploratory data analysis on the scraped data to gain insights on customer perception and experiences.
+
+Step 3: Executive Recommendations
+Provide recommendations aimed at addressing the identified issues, improving customer journey, and optimize the potential for business growth.
 
 
 ## RESULTS AND DISCUSSION
@@ -30,7 +41,7 @@ Processing fee      | #400               | Unknown
 Source: 
 >Irorun.com & Urgent10k.ng
 
-Based on the assessment, it was found that Irorun has a better user-friendly interface compared to Urgent10k. Their website is more informative and provides a comprehensive understanding of their products. Additionally, `Irorun` offers a loyalty program with zero interest, which promotes customer retention.
+Based on information derived from both website, it was found that Irorun has a better user-friendly interface compared to Urgent10k. Irorun website was more informative and provided a comprehensive understanding of their products. Additionally, `Irorun` offers a loyalty program with zero interest, which promotes customer retention.
 
 Google Play Store
 Lenders         | Rating   | Reviews  | Downloads
@@ -46,11 +57,11 @@ Irorun          | 3.5      | 331
 Urgent10k       | 2.4      | 182
 
 
-From the data, it can be observed that Urgent10k has a higher rating on Google Play Store but a significantly lower rating on the Apple App Store compared to Irorun. Irorun has a relatively lower rating on both platforms but has more reviews and higher downloads on Google Play Store, indicating a larger user base. It is important to consider both the ratings and the number of reviews to get a more comprehensive understanding of customer satisfaction and app popularity.
+From the tables above, it can be observed that Urgent10k has a higher rating on Google Play Store but a significantly lower rating on the Apple App Store compared to Irorun. Irorun has a relatively lower rating on both platforms but has more reviews and higher downloads on Google Play Store, indicating a larger user base. It is important to consider both the ratings and the number of reviews to get a more comprehensive understanding of customer satisfaction and app popularity.
 
 **As a Data Analyst**, the following steps were taken to analyze the customer reviews from Google Play Store for Irorun.ng and ng.urgent10k:
 
-Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews .ipynb))
+Step 1: Data Collection ([Web Scraping](Webscraping_Googleplay_Customers_Reviews.ipynb))
 Python code, including the Google Play Scraper library, was utilized to scrape all customer reviews from the Google Play Store. The targeted URLs for scraping were:
 - For Irorun: [Irorun.ng](https://play.google.com/store/apps/details?id=com.irorun)
 - For urgent10k: [ng.urgent10k](https://play.google.com/store/apps/details?id=ng.urgent10k)
@@ -116,7 +127,7 @@ Key findings from the [EDA of the Irorun](EDA_of_Irorun_Dataset.ipynb) dataset:
 
 2. App rating trend: The Irorun app rating showed a rapid increase from 2020 to early 2021, followed by a slight decline in momentum during 2021. However, the rating has been gradually rising since then, suggesting overall customer satisfaction and positive experiences.
 
-3. Response time: Statistically, there is a 50% chance of receiving an early reply (within <=2 days). This indicates that the majority of customers received timely responses, which is a positive aspect of customer support.
+3. Response time: Statistically, there is a 50% chance of receiving an early reply (within <=2 days). This indicates that an average number of customers received timely responses.
 
 These findings highlight the differing customer experiences and satisfaction levels between Urgent10k and Irorun. Urgent10k had a higher proportion of dissatisfied customers, longer response times, and a higher percentage of no responses or late replies. On the other hand, Irorun received positive customer feedback, shorter response times, and a higher chance of receiving early replies. These insights can inform the respective companies' strategies for improving customer satisfaction and response times.
 
@@ -125,14 +136,14 @@ To view the python code used for Exploratory Data Analysis for:
 -	Urgent10k click [here](EDA_of_Urgent10k_Dataset.ipynb)
 
 # RECOMMENDATIONS
-•	Increase Transparency: As "scam" is in the top 20 frequent words, it suggests that some customers may feel that they are being deceived by the lending apps. Both Irorun and Urgent10k should ensure that all terms and conditions are clear and transparent, and that customers are aware of all fees and charges associated with their loans. In addition, assure the customers that their personal data and card details are secured.
-•	Enhance Customer Service: customers value good customer service. Irorun and Urgent10k should prioritize responding promptly to customer inquiries and complaints and provide excellent service to improve customer satisfaction.
-•	Improve the App: As "app" is the most frequent word, it indicates that most customers are interacting with the app frequently. To ensure customer satisfaction, Irorun and Urgent10k should prioritize improving the user interface, fixing bugs, and adding new features.
+* Increase Transparency: As "scam" is in the top 20 frequent words, it suggests that some customers may feel that they are being deceived by the lending apps. Both Irorun and Urgent10k should ensure that all terms and conditions are clear and transparent, and that customers are aware of all fees and charges associated with their loans. In addition, assure the customers that their personal data and card details are secured.
+* Enhance Customer Service: customers value good customer service. Irorun and Urgent10k should prioritize responding promptly to customer inquiries and complaints and provide excellent service to improve customer satisfaction.
+* Improve the App: As "app" is the most frequent word, it indicates that most customers are interacting with the app frequently. To ensure customer satisfaction, Irorun and Urgent10k should prioritize improving the user interface, fixing bugs, and adding new features.
 
 >To view the PowerPoint recommendations, click [here](Market_Research_Report.pptx)
 
 ## Limitation | Challenges
-Web scraping of customers’ reviews from Apple store was limited to ten reviews. Hence, no further analysis was conducted using data from Apple App Store reviews. This limitation restricted the depth of analysis and insights that could be derived from the Apple Store reviews.
+Web scraping of customers’ reviews from Apple store was limited to ten reviews. Hence, no further analysis was conducted using data from Apple App Store reviews.
 
 
 
